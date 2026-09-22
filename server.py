@@ -1,5 +1,6 @@
 import os
 import time
+from pathlib import Path
 from collections import defaultdict
 
 from dotenv import load_dotenv
@@ -7,7 +8,7 @@ from mcp.server.mcpserver import MCPServer
 
 import storage
 
-load_dotenv()  # reads .env into this program's environment variables
+load_dotenv(Path(__file__).parent / ".env")  # reads .env into this program's environment variables
 
 mcp = MCPServer("task-tracker")
 storage.init_db()

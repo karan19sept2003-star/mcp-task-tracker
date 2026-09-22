@@ -314,7 +314,7 @@ cli = [
 [[package]]
 name = "mcp-task-tracker"
 version = "0.1.0"
-source = { editable = "." }
+source = { virtual = "." }
 dependencies = [
     { name = "cryptography" },
     { name = "mcp", extra = ["cli"] },

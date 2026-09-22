@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "task-tracker": {
+      "command": "/Users/karanshah/Documents/mcp-task-tracker/.venv/bin/python",
+      "args": ["/Users/karanshah/Documents/mcp-task-tracker/server.py"]
+    }
+  }
+}
